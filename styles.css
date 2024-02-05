@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 30px;
+}
+#nav h3{
+    font-size: 1.38rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#nav-part2{
+ display: flex;
+ align-items: center;
+ gap: 4rem;
+}
+h3:hover{
+   border-bottom: 2px solid rgb(0, 200, 255) ;
+   transition: all 0.15s;
+}
+#main h1 {
+    font-size: 150px;
+    position: relative;
+    z-index: 10;
+    text-transform: uppercase;
+     font-weight: 400;
+     line-height: 125px ;   
+     width: 80%;
+     margin-left: 10%;
+}
+#main h1:nth-child(2){
+    margin-top: 180px;
+}
+#main h1:nth-child(3){
+  text-align: center;
+}
+#main h1:nth-child(4){
+  text-align: center;
+  /* left: 15rem; */
+}
+img{
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    border-radius: 5px;
+    left: 40%;
+}
+#img1{
+    rotate: 20deg;
+}
+#img2{
+    rotate: 10deg;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9%;
+}
+#footer h3{
+    font-size: 1.38rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#footer :nth-child(1){
+    margin-left: 2rem;
+}
